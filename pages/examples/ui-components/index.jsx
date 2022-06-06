@@ -1,28 +1,28 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
+import styles from '../../../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Contact us</title>
-        <meta name="description" content="Contact us" />
+        <title>About our project</title>
+        <meta name="description" content="About our project" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Contact
+          About our project
         </h1>
 
         <p className={styles.description}>
           Change this page by editing:{' '}
-          <code className={styles.code}>pages/contact/index.js</code>
+          <code className={styles.code}>pages/about/index.js</code>
         </p>
 
         <p>
-          This page contains an example of: using the built-in Replit database
+          This page contains examples of: using custom and library components
         </p>
         
 

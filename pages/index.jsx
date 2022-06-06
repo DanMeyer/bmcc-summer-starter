@@ -22,11 +22,11 @@ export default function Home() {
         </p>
 
 
-        <h2>What's in this starer</h2>
+        <h2>What's in this starter app</h2>
         <ul>
           <li>This page, editable at: {' '} <code>pages/index.js</code></li>
-          <li><a href="/about">/about</a>, editable at: {' '} <code>pages/about/index.js</code>, which contains some component examples</li>
-          <li><a href="/contact">/contact</a>, editable at: {' '} <code>pages/contact/index.js</code> which contains a database example</li>
+          <li><a href="/examples/ui-components">/examples/ui-components</a>, editable at: {' '} <code>pages/examples/ui-components/index.js</code>, which contains some component examples</li>
+          <li><a href="/examples/db-read-write">/examples/db-read-write</a>, editable at: {' '} <code>pages/examples/db-read-write/index.js</code>, which contains some component examples</li>
         </ul>
         
         <h2>External resources</h2>
