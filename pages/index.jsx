@@ -24,9 +24,10 @@ export default function Home() {
 
         <h2>What's in this starter app</h2>
         <ul>
-          <li>This page, editable at: {' '} <code>pages/index.js</code></li>
-          <li><a href="/examples/ui-components">/examples/ui-components</a>, editable at: {' '} <code>pages/examples/ui-components/index.js</code>, which contains some component examples</li>
-          <li><a href="/examples/db-read-write">/examples/db-read-write</a>, editable at: {' '} <code>pages/examples/db-read-write/index.js</code>, which contains some component examples</li>
+          <li>This page,  editable at: {' '} <code>pages/index.js</code></li>
+          
+          <li><a href="/examples/ui">/examples/ui</a></li>
+          <li><a href="/examples/db">/examples/db</a></li>
         </ul>
         
         <h2>External resources</h2>

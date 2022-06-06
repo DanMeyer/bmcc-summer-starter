@@ -52,19 +52,19 @@ export default function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Contact us</title>
-        <meta name="description" content="Contact us" />
+        <title>Database example</title>
+        <meta name="description" content="Database Example" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Contact
+          Database example
         </h1>
 
         <p className={styles.description}>
           Change this page by editing:{' '}
-          <code className={styles.code}>pages/contact/index.js</code>
+          <code className={styles.code}>pages/examples/db/index.js</code>
         </p>
 
         <p>
