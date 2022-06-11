@@ -13,7 +13,7 @@ export default function Home() {
       
       <main className={styles.main}>
         <h1 className={styles.title}>
-          BMCC Summer 20202 - <a href="https://nextjs.org">Next.js</a> Starter App
+          BMCC Summer 20202 - Judex
         </h1>
 
         <p className={styles.description}>
@@ -23,11 +23,13 @@ export default function Home() {
 
 
         <h2>What's in this starter app</h2>
+        <p>This page,  editable at: {' '} <code>pages/index.js</code>, plus a bunch of examples:</p>
         <ul>
-          <li>This page,  editable at: {' '} <code>pages/index.js</code></li>
-          
-          <li><a href="/examples/ui">/examples/ui</a></li>
-          <li><a href="/examples/db">/examples/db</a></li>
+          <li><a href="/examples/ui/bootstrap">using a React component from Bootstrap</a></li>
+          <li><a href="/examples/ui/components">using a NextJS image component and a simple custom component</a></li>
+          <li><a href="/examples/databases/replit-db">using the built-in Replit key-value database</a></li>
+          <li><a href="/examples/databases/postgresql">using PostgreSQL via bit.io</a></li>
+          <li><a href="/examples/databases/mongodb">TODO: MongoDB</a></li>
         </ul>
         
         <h2>External resources</h2>
