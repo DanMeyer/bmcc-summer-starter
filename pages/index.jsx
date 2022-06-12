@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,23 +12,33 @@ export default function Home() {
       
       <main className={styles.main}>
         <h1 className={styles.title}>
-          BMCC Summer 20202 - Judex
+          BMCC Summer 20202 - NextJS Starter App
         </h1>
 
         <p className={styles.description}>
-          Quick start: change this page by editing:{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Fork this repl, then choose a database per <a href="https://docs.google.com/document/d/1l-hxTTd23rcIlmX58V-yHFPNJKMs-4E3ZsoFuh_Sye0/edit#">Dan's google doc</a>
         </p>
 
 
-        <h2>What's in this starter app</h2>
-        <p>This page,  editable at: {' '} <code>pages/index.js</code>, plus a bunch of examples:</p>
+        <h2>Mapping URLs to files</h2>
         <ul>
-          <li><a href="/examples/ui/bootstrap">using a React component from Bootstrap</a></li>
-          <li><a href="/examples/ui/components">using a NextJS image component and a simple custom component</a></li>
-          <li><a href="/examples/databases/replit-db">using the built-in Replit key-value database</a></li>
-          <li><a href="/examples/databases/postgresql">using PostgreSQL via bit.io</a></li>
-          <li><a href="/examples/databases/mongodb">TODO: MongoDB</a></li>
+          <li>Paths in the <code>/pages</code> directory create pages in the app. </li>
+          <li>This page, the home page, is editable at: {' '} <code>pages/index.js</code></li>
+          <li><a href="/examples/react-components/bootstrap">/examples/react-components/bootstrap</a> is editable at <code>pages/examples/react-components/bootstap/index.jsx</code></li>
+        </ul>
+
+        <h2>UI Examples</h2>
+        <ul>
+          <li><a href="/examples/react-components/custom">/examples/react-components/custom</a></li>
+          <li><a href="/examples/react-components/mui">/examples/react-components/mui</a></li>
+          <li><a href="/examples/react-components/nextjs">/examples/react-components/nextjs</a></li>
+        </ul>
+
+        <h2>Database Examples</h2>
+        <ul>
+          <li><a href="/examples/databases/replit-db">/examples/databases/replit-db</a></li>
+          <li><a href="/examples/databases/postgresql">/examples/databases/postgresql</a></li>
+          <li><a href="/examples/databases/mongodb">/examples/databases/mongodb</a></li>
         </ul>
         
         <h2>External resources</h2>
