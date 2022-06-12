@@ -23,7 +23,7 @@ export default function Home() {
         <h2>Mapping URLs to files</h2>
         <ul>
           <li>Paths in the <code>/pages</code> directory create pages in the app. </li>
-          <li>This page, the home page, is editable at: {' '} <code>pages/index.js</code></li>
+          <li>This page (the home page) is editable at: {' '} <code>pages/index.js</code></li>
           <li><a href="/examples/react-components/bootstrap">/examples/react-components/bootstrap</a> is editable at <code>pages/examples/react-components/bootstap/index.jsx</code></li>
         </ul>
 
